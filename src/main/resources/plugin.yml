@@ -1,0 +1,17 @@
+name: EventMuharram
+version: 1.0
+main: id.eventmuharram.EventMuharram
+api-version: "1.21"
+description: Boss Raksasa Jahiliyah - Event Muharram
+authors: [EventMuharram]
+
+commands:
+  raksasa:
+    description: Perintah utama Raksasa Jahiliyah
+    usage: /raksasa <spawn|kill|info>
+    permission: eventmuharram.admin
+
+permissions:
+  eventmuharram.admin:
+    description: Akses penuh plugin EventMuharram
+    default: op
